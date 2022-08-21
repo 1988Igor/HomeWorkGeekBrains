@@ -1,2 +1,4 @@
-﻿int [] array = {1,7,8} ;
-Console.WriteLine(array[1]);
+﻿Console.WriteLine("Enter a three-digit number :");
+int n = int.Parse(Console.ReadLine());
+
+Console.WriteLine(n %100/10);
